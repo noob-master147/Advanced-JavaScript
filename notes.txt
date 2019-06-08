@@ -1,0 +1,40 @@
+Difference between let and var
+
+let was recently introduced in 2015/ES5
+var was present from the begining
+
+let has block scope
+var has function scope
+
+var is hoisted at the top of its function
+let is not hoisted
+
+--------------------------------------------------
+
+Difference between == & ===
+
+they both are comparison operators
+
+== only compares value 
+=== compares both value and type
+
+'1' == 1 returns true
+'1' === 1 returns false 
+
+--------------------------------------------------
+
+Difference between let and const 
+
+both are used to define variables
+
+const are used to define constants 
+once a value is defined it can not be changed
+
+let helps to redefine the values and also lets to change type
+
+suppose const is used to define not a primitive type like array
+    we can push new values to the array but cant redefine it
+    eg:
+        const a = [1,2,3]
+        a.push(4)       =>  allowed
+        a[2] = 10       =>  not allowed
